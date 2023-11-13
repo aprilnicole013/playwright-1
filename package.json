@@ -1,0 +1,26 @@
+{
+  "name": "playwright-api-automation",
+  "version": "1.0.0",
+  "description": "API Automation with Playwright - Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test -- tests/apiTest.spec.ts",
+    "debug": "npx playwright debg",
+    "report": "npx playwright test --reporter=html && npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs.promises": "^0.1.2",
+    "playwright": "^1.38.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.38.1",
+    "@types/node": "^20.8.2",
+    "fs.promises": "^0.1.2",
+    "playwright": "^1.38.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
